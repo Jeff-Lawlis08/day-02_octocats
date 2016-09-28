@@ -1,0 +1,27 @@
+.octocat {
+  display: inline-block;
+  margin: 0 auto;
+}
+.authors {
+display: none;
+}
+body {
+  display: inline-block;
+}
+
+  img {
+    width: 33%;
+    position: absolute;;
+    margin: 0px 100px 100px 0px;
+    border: 1px solid grey;
+    display: inline-block;
+  }
+.image-caption {
+position: relative;
+margin-top: -190px;
+}
+span {
+  position: relative;
+  margin-top: 210px;
+  display: inline-block;
+}
