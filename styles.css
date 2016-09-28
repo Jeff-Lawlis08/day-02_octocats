@@ -1,27 +1,28 @@
-.octocat {
-  display: inline-block;
-  margin: 0 auto;
-}
-.authors {
-display: none;
-}
-body {
-  display: inline-block;
+* {
+  list-style: none;
 }
 
-  img {
-    width: 33%;
-    position: absolute;;
-    margin: 0px 100px 100px 0px;
-    border: 1px solid grey;
-    display: inline-block;
+.octocat img {
+  width: 100%;
+  border: 1px solid gray;
   }
-.image-caption {
-position: relative;
-margin-top: -190px;
-}
-span {
-  position: relative;
-  margin-top: 210px;
+
+.octocat {
   display: inline-block;
+  width: 30%;
+
 }
+ul.authors img {
+width: 10px;
+display: inline-block;
+}
+.image-caption {
+float: right;
+}
+.image-footer {
+  border: 1px solid gray;
+}
+ul.authors {
+    display: inline-block;
+    padding: 0;
+  }
